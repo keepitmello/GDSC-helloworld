@@ -1,6 +1,6 @@
-import { FunctionComponent } from "react";
+import React from "react";
 
-const Login: FunctionComponent = () => {
+const MyPage = () => {
   return (
     <div
       style={{
@@ -79,6 +79,23 @@ const Login: FunctionComponent = () => {
         }}
       ></div>
       <div
+        style={{
+          width: 146,
+          height: 30,
+          left: 571,
+          top: 448,
+          position: "absolute",
+          textAlign: "center",
+          color: "#FFFAFA",
+          fontSize: 15,
+          fontFamily: "Inter",
+          fontWeight: "700",
+          wordWrap: "break-word",
+        }}
+      >
+        자세히보기
+      </div>
+      <div
         className="Line38"
         style={{
           width: 1460.01,
@@ -90,28 +107,11 @@ const Login: FunctionComponent = () => {
         }}
       ></div>
       <div
-        className="Welcome"
-        style={{
-          width: 494,
-          height: 228,
-          left: 586,
-          top: 292,
-          position: "absolute",
-          color: "black",
-          fontSize: 50,
-          fontFamily: "Inter",
-          fontWeight: "700",
-          wordWrap: "break-word",
-        }}
-      >
-        WELCOME{" "}
-      </div>
-      <div
         style={{
           width: 224,
           height: 32,
-          left: 270,
-          top: 84,
+          left: 276,
+          top: 82,
           position: "absolute",
           textAlign: "center",
           color: "black",
@@ -127,8 +127,8 @@ const Login: FunctionComponent = () => {
         style={{
           width: 224,
           height: 32,
-          left: 538,
-          top: 82,
+          left: 544,
+          top: 80,
           position: "absolute",
           textAlign: "center",
           color: "black",
@@ -144,8 +144,8 @@ const Login: FunctionComponent = () => {
         style={{
           width: 224,
           height: 32,
-          left: 812,
-          top: 80,
+          left: 818,
+          top: 78,
           position: "absolute",
           textAlign: "center",
           color: "black",
@@ -161,8 +161,8 @@ const Login: FunctionComponent = () => {
         style={{
           width: 224,
           height: 32,
-          left: 1018,
-          top: 80,
+          left: 1024,
+          top: 78,
           position: "absolute",
           textAlign: "center",
           color: "black",
@@ -175,28 +175,12 @@ const Login: FunctionComponent = () => {
         자원봉사
       </div>
       <div
-        style={{
-          width: 112,
-          height: 15,
-          left: 1293,
-          top: 12,
-          position: "absolute",
-          color: "black",
-          fontSize: 12,
-          fontFamily: "Inter",
-          fontWeight: "400",
-          wordWrap: "break-word",
-        }}
-      >
-        로그인 · 회원가입
-      </div>
-      <div
         className="Rectangle19"
         style={{
           width: 144,
           height: 42,
-          left: 1236,
-          top: 75,
+          left: 1242,
+          top: 73,
           position: "absolute",
           background: "#E16C6C",
         }}
@@ -205,8 +189,8 @@ const Login: FunctionComponent = () => {
         style={{
           width: 107,
           height: 29,
-          left: 1277,
-          top: 85,
+          left: 1283,
+          top: 83,
           position: "absolute",
           color: "white",
           fontSize: 20,
@@ -217,61 +201,6 @@ const Login: FunctionComponent = () => {
       >
         질문하기
       </div>
-      <div
-        style={{
-          width: 174,
-          height: 34,
-          left: 491,
-          top: 467,
-          position: "absolute",
-          textAlign: "center",
-          color: "#FFFAFA",
-          fontSize: 15,
-          fontFamily: "Inter",
-          fontWeight: "700",
-          wordWrap: "break-word",
-        }}
-      >
-        자세히보기
-      </div>
-      <div
-        style={{
-          width: 662,
-          height: 146,
-          left: 586,
-          top: 413,
-          position: "absolute",
-          color: "black",
-          fontSize: 50,
-          fontFamily: "Inter",
-          fontWeight: "400",
-          wordWrap: "break-word",
-        }}
-      >
-        간편 로그인{" "}
-      </div>
-      <img
-        className="Image4"
-        style={{
-          width: 162,
-          height: 156,
-          left: 617,
-          top: 546,
-          position: "absolute",
-        }}
-        src="https://via.placeholder.com/162x156"
-      />
-      <div
-        className="Line40"
-        style={{
-          width: 620,
-          height: 0,
-          left: 398,
-          top: 744,
-          position: "absolute",
-          border: "1px black solid",
-        }}
-      ></div>
       <div
         className="Rectangle7"
         style={{
@@ -365,8 +294,142 @@ const Login: FunctionComponent = () => {
         <br />
         Google Solution Challenge 2024
       </div>
+      <img
+        className="Bell"
+        style={{
+          width: 43,
+          height: 29,
+          left: 1336,
+          top: 3,
+          position: "absolute",
+        }}
+        src="https://via.placeholder.com/43x29"
+      />
+      <div
+        className="Vector"
+        style={{
+          width: 22,
+          height: 26,
+          left: 1308,
+          top: 5,
+          position: "absolute",
+          background: "#666666",
+        }}
+      ></div>
+      <div
+        style={{
+          width: 308,
+          height: 97,
+          left: 546,
+          top: 235,
+          position: "absolute",
+          textAlign: "center",
+          color: "black",
+          fontSize: 40,
+          fontFamily: "Inter",
+          fontWeight: "500",
+          wordWrap: "break-word",
+        }}
+      >
+        마이페이지{" "}
+      </div>
+      <div
+        className="Line88"
+        style={{
+          width: 353,
+          height: 0,
+          left: 546,
+          top: 434,
+          position: "absolute",
+          border: "1px black solid",
+        }}
+      ></div>
+      <div
+        className="Line89"
+        style={{
+          width: 353,
+          height: 0,
+          left: 546,
+          top: 534,
+          position: "absolute",
+          border: "1px black solid",
+        }}
+      ></div>
+      <div
+        className="Vector"
+        style={{
+          width: 33,
+          height: 18,
+          left: 580,
+          top: 378,
+          position: "absolute",
+          background: "#666666",
+        }}
+      ></div>
+      <div
+        style={{
+          width: 258,
+          height: 86,
+          left: 563,
+          top: 370,
+          position: "absolute",
+          textAlign: "center",
+          color: "black",
+          fontSize: 30,
+          fontFamily: "Inter",
+          fontWeight: "400",
+          wordWrap: "break-word",
+        }}
+      >
+        내가 쓴 글{" "}
+      </div>
+      <div
+        style={{
+          width: 258,
+          height: 86,
+          left: 563,
+          top: 463,
+          position: "absolute",
+          textAlign: "center",
+          color: "black",
+          fontSize: 30,
+          fontFamily: "Inter",
+          fontWeight: "400",
+          wordWrap: "break-word",
+        }}
+      >
+        댓글 단 글{" "}
+      </div>
+      <div
+        style={{
+          width: 258,
+          height: 86,
+          left: 563,
+          top: 563,
+          position: "absolute",
+          textAlign: "center",
+          color: "black",
+          fontSize: 30,
+          fontFamily: "Inter",
+          fontWeight: "400",
+          wordWrap: "break-word",
+        }}
+      >
+        내 스크랩{" "}
+      </div>
+      <div
+        className="Vector"
+        style={{
+          width: 41,
+          height: 44,
+          left: 580,
+          top: 549,
+          position: "absolute",
+          background: "#666666",
+        }}
+      ></div>
     </div>
   );
 };
 
-export default Login;
+export default MyPage;
