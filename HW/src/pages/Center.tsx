@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 const Center = () => {
   const [activeSection, setActiveSection] = useState("default"); // 기본값으로 'turkiye' 설정
+  let { id } = useParams();
+  return <div>ID: {id}</div>;
 
   const renderContent = () => {
     switch (activeSection) {
