@@ -5,6 +5,18 @@ function MainPage() {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
   const navigate = useNavigate();
 
+  useEffect(() => {
+    // 컴포넌트가 마운트될 때 실행될 코드
+    console.log('Component did mount');
+
+    return () => {
+      // 컴포넌트가 언마운트될 때 실행될 정리(clean-up) 코드
+      console.log('Component will unmount');
+    };
+  }, []); // 의존성 배열이 빈 경우, 컴포넌트가 마운트될 때 한 번만 실행됨
+
+  return <div>Hello, World!</div>;
+  
   const handleNavigate = (path: string) => {
     navigate(path);
   };
